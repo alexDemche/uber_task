@@ -3,4 +3,8 @@
   grid-template-columns: repeat(auto-fill, minmax(308px, 1fr));
   grid-gap: 16px;
   margin-bottom: 84px;
+
+  @media screen and (max-width: $phone-size) {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  }
 }
