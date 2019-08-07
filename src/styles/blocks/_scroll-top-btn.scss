@@ -1,0 +1,25 @@
+.scroll-top-btn {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  z-index: 99;
+  font-size: 18px;
+  background-color: #59bd5a;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 6px;
+
+  svg {
+    width: 100%;
+    height: auto;
+    fill: white;
+  }
+
+  @media screen and (max-width: $phone-size) {
+    width: 60px;
+    height: 60px;
+  }
+}

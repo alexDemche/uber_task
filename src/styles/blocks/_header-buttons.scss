@@ -1,0 +1,17 @@
+.header-buttons {
+  display: flex;
+
+  &__sign {
+    margin-right: 16px;
+    @media screen and (max-width: $phone-size) {
+      margin-right: 12px;
+    }
+  }
+
+  &__register {
+    margin-right: 26px;
+    @media screen and (max-width: $phone-size) {
+      margin-right: 0;
+    }
+  }
+}

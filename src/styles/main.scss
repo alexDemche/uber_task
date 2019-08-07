@@ -2,6 +2,47 @@
 @import "fonts";
 @import "typography";
 
+// Blocks
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/buttons";
+@import "blocks/adress";
+@import "blocks/header-buttons";
+@import "blocks/shopping-basket";
+@import "blocks/search";
+@import "blocks/cards";
+@import "blocks/card";
+@import "blocks/secondary-title";
+@import "blocks/footer";
+@import "blocks/footer-nav";
+@import "blocks/footer-navigation";
+@import "blocks/white-logo";
+@import "blocks/download";
+@import "blocks/scroll-top-btn";
+
+html {
+  font-size: $base-font-size;
+  line-height: 1.4;
+  height: 100%;
+}
+
 body {
-  background: $c-gray;
+  margin: 0;
+  font-family: $main-font;
+}
+
+.container {
+  // position: relative;
+  padding: 0 81px;
+  width: 100%;
+  max-width: $content-size;
+  margin: 0 auto;
+
+  @media screen and (max-width: $tablet-size) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: $phone-size) {
+    padding: 0 10px;
+  }
 }

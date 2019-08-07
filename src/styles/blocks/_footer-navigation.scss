@@ -1,0 +1,16 @@
+.footer-navigation {
+  &__item {
+    margin-bottom: 23px;
+  }
+
+  &__link {
+    color: white;
+    font-size: 13px;
+    line-height: 15px;
+    transition-duration: 0.4s;
+
+    &:hover {
+      color: #457a44;
+    }
+  }
+}

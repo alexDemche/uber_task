@@ -1,0 +1,45 @@
+.button {
+  width: 80px;
+  height: 40px;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: $sm-fz;
+  line-height: $base-line-height;
+  padding: 0;
+  background-color: $white;
+  border: $main-border;
+  border-radius: $main-border-radius;
+  transition-duration: $main-transition-duration;
+  cursor: pointer;
+
+  @media screen and (max-width: $phone-size) {
+    width: 72px;
+    font-size: $xs-fz;
+  }
+
+  &:hover {
+    box-shadow: $btn-box-sdow;
+  }
+
+  &--primary {
+    color: $c-btn-primary;
+
+    &:hover {
+      border: $darken-border;
+      color: $c-btn-secondary;
+      background: $bg-btn-secondary;
+    }
+  }
+
+  &--secondary {
+    border: $darken-border;
+    color: $c-btn-secondary;
+    background: $bg-btn-secondary;
+
+    &:hover {
+      border: $main-border;
+      color: $c-btn-primary;
+      background: $bg-btn-primary;
+    }
+  }
+}

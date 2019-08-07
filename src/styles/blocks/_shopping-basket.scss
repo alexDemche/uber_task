@@ -1,0 +1,19 @@
+.shopping-basket {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: auto;
+
+  @media screen and (max-width: $phone-size) {
+    display: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

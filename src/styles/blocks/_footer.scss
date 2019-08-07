@@ -1,0 +1,35 @@
+.footer {
+  background-color: #262626;
+
+  &__bottom {
+    font-size: 11px;
+    line-height: 13px;
+    color: white;
+    padding: 40px 0;
+  }
+
+  &__copy {
+    display: inline-block;
+    width: 35%;
+
+    @media screen and (max-width: $phone-size) {
+      width: 43%;
+      margin-right: 10px;
+    }
+  }
+
+  &__privacy {
+    display: inline-block;
+    width: 33%;
+
+    @media screen and (max-width: $phone-size) {
+      width: 20%;
+      margin-right: 10px;
+    }
+  }
+
+  &__tems {
+    display: inline-block;
+    width: 30%;
+  }
+}

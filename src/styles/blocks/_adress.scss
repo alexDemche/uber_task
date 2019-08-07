@@ -1,0 +1,94 @@
+.adress {
+  font-family: $main-font;
+
+  &--mobile {
+    display: none;
+    @media screen and (max-width: $phone-size) {
+      display: flex;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__asap {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    border: $main-border;
+    border-radius: $main-border-radius;
+    text-align: center;
+    width: 65px;
+    height: 40px;
+    margin-right: 5px;
+
+    @media screen and (max-width: $tablet-size) {
+      width: 57px;
+      font-size: $sm-fz;
+      line-height: $base-line-height;
+    }
+
+    @media screen and (max-width: $phone-size) {
+      width: 65px;
+      margin-right: 16px;
+    }
+
+    &::placeholder {
+      color: $black;
+    }
+  }
+
+  &__field {
+    flex-grow: 1;
+  }
+
+  &__label-to {
+    font-size: $sm-fz;
+    line-height: $sm-line-height;
+    color: #626262;
+    margin-right: 6px;
+
+    @media screen and (max-width: $phone-size) {
+      display: block;
+      font-size: $sm-fz;
+      line-height: $xs-line-height;
+      margin-bottom: 8px;
+    }
+  }
+
+  &__label-when {
+    font-size: $sm-fz;
+    line-height: $sm-line-height;
+    color: #626262;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    display: block;
+
+    @media screen and (max-width: $phone-size) {
+      font-size: $xs-fz;
+      line-height: $xs-line-height;
+    }
+  }
+
+  &__input-location {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    border: $main-border;
+    border-radius: $main-border-radius;
+    width: 292px;
+    height: 40px;
+    padding-left: 36px;
+    background: url(../images/location.svg) no-repeat 8px 50%;
+    background-size: 20px;
+
+    @media screen and (max-width: $tablet-size) {
+      width: 215px;
+      font-size: $sm-fz;
+    }
+
+    @media screen and (max-width: $phone-size) {
+      width: 100%;
+    }
+
+    &::placeholder {
+      color: $black;
+    }
+  }
+}
