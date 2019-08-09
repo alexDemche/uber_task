@@ -1,27 +1,25 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import 'utils';
+@import 'fonts';
+@import 'typography';
 
 // Blocks
-@import "blocks/header";
-@import "blocks/logo";
-@import "blocks/buttons";
-@import "blocks/adress";
-@import "blocks/header-buttons";
-@import "blocks/shopping-basket";
-@import "blocks/search";
-@import "blocks/cards";
-@import "blocks/card";
-@import "blocks/secondary-title";
-@import "blocks/footer";
-@import "blocks/footer-nav";
-@import "blocks/footer-navigation";
-@import "blocks/white-logo";
-@import "blocks/download";
-@import "blocks/scroll-top-btn";
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/buttons';
+@import 'blocks/adress';
+@import 'blocks/header-buttons';
+@import 'blocks/shopping-basket';
+@import 'blocks/search';
+@import 'blocks/cards';
+@import 'blocks/card';
+@import 'blocks/secondary-title';
+@import 'blocks/footer';
+@import 'blocks/footer-nav';
+@import 'blocks/footer-navigation';
+@import 'blocks/white-logo';
+@import 'blocks/download';
+@import 'blocks/scroll-top-btn';
 
-
-// test push
 html {
   font-size: $base-font-size;
   line-height: 1.4;
