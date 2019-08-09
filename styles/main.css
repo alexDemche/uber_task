@@ -427,7 +427,13 @@ button {
     text-transform: uppercase;
     margin-bottom: 32px;
     background: #3b3b3b url(../images/world.svg) no-repeat 16px 50%;
-    background-size: 15px; }
+    background-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s; }
+    .footer-nav__select-lang:hover {
+      -webkit-transform: translateY(4px);
+              transform: translateY(4px); }
   .footer-nav__title {
     font-size: 16px;
     line-height: 19px;
