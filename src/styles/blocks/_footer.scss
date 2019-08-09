@@ -11,9 +11,15 @@
   &__copy {
     display: inline-block;
     width: 35%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      color: #59bd5a;
+    }
 
     @media screen and (max-width: $phone-size) {
-      width: 43%;
+      width: 50%;
       margin-right: 10px;
     }
   }
@@ -22,14 +28,27 @@
     display: inline-block;
     width: 33%;
 
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      color: #59bd5a;
+    }
+
     @media screen and (max-width: $phone-size) {
-      width: 20%;
-      margin-right: 10px;
+      width: 15%;
+      margin-right: 5x;
     }
   }
 
-  &__tems {
+  &__terms {
     display: inline-block;
-    width: 30%;
+    width: 12%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      color: #59bd5a;
+    }
   }
 }

@@ -41,8 +41,14 @@
     text-indent: 5px;
     text-transform: uppercase;
     margin-bottom: 32px;
-    background: #3b3b3b url(../../images/world.svg) no-repeat 16px 50%;
+    background: #3b3b3b url(../images/world.svg) no-repeat 16px 50%;
     background-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      transform: translateY(4px);
+    }
   }
 
   &__title {
@@ -70,7 +76,7 @@
     transition-duration: 0.4s;
 
     &:hover {
-      transform: scale(1.3);
+      transform: scale(1.3) rotate(360deg);
     }
 
     &:not(:last-child) {
