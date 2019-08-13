@@ -147,6 +147,16 @@ button {
     width: 65px;
     height: 40px;
     margin-right: 5px; }
+    .adress__asap::-webkit-input-placeholder {
+      color: #000; }
+    .adress__asap::-moz-placeholder {
+      color: #000; }
+    .adress__asap:-ms-input-placeholder {
+      color: #000; }
+    .adress__asap::-ms-input-placeholder {
+      color: #000; }
+    .adress__asap::placeholder {
+      color: #000; }
     .adress__asap:focus {
       -webkit-box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
               box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
@@ -171,16 +181,6 @@ button {
       .adress__asap {
         width: 65px;
         margin-right: 16px; } }
-    .adress__asap::-webkit-input-placeholder {
-      color: #000; }
-    .adress__asap::-moz-placeholder {
-      color: #000; }
-    .adress__asap:-ms-input-placeholder {
-      color: #000; }
-    .adress__asap::-ms-input-placeholder {
-      color: #000; }
-    .adress__asap::placeholder {
-      color: #000; }
   .adress__field {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -217,6 +217,16 @@ button {
     padding-left: 36px;
     background: url(../images/location.svg) no-repeat 8px 50%;
     background-size: 20px; }
+    .adress__input-location::-webkit-input-placeholder {
+      color: #000; }
+    .adress__input-location::-moz-placeholder {
+      color: #000; }
+    .adress__input-location:-ms-input-placeholder {
+      color: #000; }
+    .adress__input-location::-ms-input-placeholder {
+      color: #000; }
+    .adress__input-location::placeholder {
+      color: #000; }
     .adress__input-location:focus {
       -webkit-box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
               box-shadow: 0 0 16px rgba(38, 38, 38, 0.16); }
@@ -237,16 +247,6 @@ button {
     @media screen and (max-width: 768px) {
       .adress__input-location {
         width: 100%; } }
-    .adress__input-location::-webkit-input-placeholder {
-      color: #000; }
-    .adress__input-location::-moz-placeholder {
-      color: #000; }
-    .adress__input-location:-ms-input-placeholder {
-      color: #000; }
-    .adress__input-location::-ms-input-placeholder {
-      color: #000; }
-    .adress__input-location::placeholder {
-      color: #000; }
 
 .header-buttons {
   display: -webkit-box;
@@ -291,7 +291,18 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-bottom: 1px solid #ccc; }
+    border-bottom: 1px solid #ccc;
+    position: relative; }
+    .search__form::before {
+      content: "";
+      width: 22px;
+      height: 22px;
+      background: url(../images/search.svg);
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+              transform: translate(0, -50%);
+      left: 4px; }
   .search__button {
     background: #fff;
     border: 0;
@@ -308,7 +319,7 @@ button {
     font-size: 16px;
     line-height: 24px;
     border: 0;
-    padding: 0 8px;
+    padding: 0 8px 0 34px;
     height: 40px; }
     .search__input:focus {
       outline: none;
@@ -406,7 +417,7 @@ button {
     @media screen and (max-width: 768px) {
       .footer__privacy {
         width: 15%;
-        margin-right: 5x; } }
+        margin-right: 5px; } }
   .footer__terms {
     display: inline-block;
     width: 12%;
