@@ -148,15 +148,15 @@ button {
     height: 40px;
     margin-right: 5px; }
     .adress__asap::-webkit-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__asap::-moz-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__asap:-ms-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__asap::-ms-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__asap::placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__asap:focus {
       -webkit-box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
               box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
@@ -218,15 +218,15 @@ button {
     background: url(../images/location.svg) no-repeat 8px 50%;
     background-size: 20px; }
     .adress__input-location::-webkit-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__input-location::-moz-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__input-location:-ms-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__input-location::-ms-input-placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__input-location::placeholder {
-      color: #000; }
+      color: #626262; }
     .adress__input-location:focus {
       -webkit-box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
               box-shadow: 0 0 16px rgba(38, 38, 38, 0.16); }
