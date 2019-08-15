@@ -21,6 +21,7 @@
 
     &::placeholder {
       color: $c-gray;
+      opacity: 0.5;
     }
 
     &:focus {
@@ -90,6 +91,7 @@
 
     &::placeholder {
       color: $c-gray;
+      opacity: 0.5;
     }
 
     &:focus {
