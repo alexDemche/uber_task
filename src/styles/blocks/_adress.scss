@@ -20,7 +20,7 @@
     margin-right: 5px;
 
     &::placeholder {
-      color: $black;
+      color: $c-gray;
     }
 
     &:focus {
@@ -89,7 +89,7 @@
     background-size: 20px;
 
     &::placeholder {
-      color: $black;
+      color: $c-gray;
     }
 
     &:focus {
